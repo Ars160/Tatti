@@ -15,7 +15,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Найти"
-            className="w-full pl-10 pr-4 py-2 rounded-full bg-white text-tatti-brown placeholder-tatti-brown font-lato text-base focus:outline-none shadow-sm"
+            className="w-full pl-10 pr-4 py-2 rounded-xl bg-white text-tatti-brown placeholder-tatti-brown font-lato text-base focus:outline-none shadow-sm"
           />
           <img
             src={SearchIcon}
@@ -23,7 +23,7 @@ const Header = () => {
             className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5"
           />
         </div>
-        <button className="flex items-center pl-2 pr-4 py-2 rounded-full bg-tatti-gray-light text-tatti-brown font-lato text-base">
+        <button className="flex items-center pl-2 pr-4 py-2 rounded-xl bg-tatti-gray-light hover:bg-white transition duration-300 text-tatti-brown font-lato text-base">
             <img
               src={ChevronDownIcon}
               alt="Dropdown"
@@ -41,7 +41,7 @@ const Header = () => {
         <Button
           text="Войти"
           bgColor="bg-tatti-gray-light"
-          className="font-lato font-bold text-base px-6 py-2 rounded-full shadow-sm hover:bg-tatti-coral transition duration-300"
+          className="font-lato font-bold text-base px-6 py-2 rounded-xl shadow-sm hover:bg-white transition duration-300"
         />
       </div>
     </header>
