@@ -75,7 +75,7 @@ const StoreSection = () => {
           {displayedProducts.map((product) => (
             <div 
               key={product.id} 
-              className="flex-shrink-0 w-[280px] rounded-lg overflow-hidden shadow-md"
+              className="flex-shrink-0 w-[280px] rounded-2xl overflow-hidden shadow-md"
             >
               <img 
                 src={product.src} 
